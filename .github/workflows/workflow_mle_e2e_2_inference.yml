@@ -1,12 +1,17 @@
+## name of the workflow
 name: workflow_mle_e2e_2_inference
 
+## when the workflow action would be taken
 on:
+  ## the following is for 'at xx:40 mins for each hour each day'
   # schedule:
   #   - cron: '40 * * * *'
+  ## the following is for 'at completion of some other workflow action this would trigger the current workflow action'
   # workflow_run:
   #   workflows: ["covid1-modeltrainingpipeline"]
   #   types: 
   #     - completed
+  ## the following is for 'at manual trigger from the github workflows'
   workflow_dispatch:
 
 jobs:
