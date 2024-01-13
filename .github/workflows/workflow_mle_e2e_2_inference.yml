@@ -1,4 +1,4 @@
-name: workflow_mle_e2e_1_inference
+name: workflow_mle_e2e_2_inference
 
 on:
   # schedule:
