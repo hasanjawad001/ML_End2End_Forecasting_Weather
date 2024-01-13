@@ -49,19 +49,19 @@ model = joblib.load(local_file_name)
 # Using columns to create a more compact layout
 col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col1:
-    temp_7d_ago = st.number_input("7 days ago (°C):", format="%.2f")
+    temp_7d_ago = st.number_input("7 days ago (°C):", step=1)
 with col2:
-    temp_6d_ago = st.number_input("6 days ago (°C):", format="%.2f")
+    temp_6d_ago = st.number_input("6 days ago (°C):", step=1)
 with col3:
-    temp_5d_ago = st.number_input("5 days ago (°C):", format="%.2f")
+    temp_5d_ago = st.number_input("5 days ago (°C):", step=1)
 with col4:
-    temp_4d_ago = st.number_input("4 days ago (°C):", format="%.2f")
+    temp_4d_ago = st.number_input("4 days ago (°C):", step=1)
 with col5:
-    temp_3d_ago = st.number_input("3 days ago (°C):", format="%.2f")
+    temp_3d_ago = st.number_input("3 days ago (°C):", step=1)
 with col6:
-    temp_2d_ago = st.number_input("2 days ago (°C):", format="%.2f")
+    temp_2d_ago = st.number_input("2 days ago (°C):", step=1)
 with col7:
-    temp_1d_ago = st.number_input("1 day ago (°C):", format="%.2f")
+    temp_1d_ago = st.number_input("1 day ago (°C):", step=1)
 
 # Predict button
 if st.button("Predict Today's Temperature"):
