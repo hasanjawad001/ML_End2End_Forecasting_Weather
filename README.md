@@ -1,4 +1,4 @@
-# ML_End2End_Forecasting_Temperature
+# ML_End2End_Forecasting_Weather
 
 This project predicts today's temperature based on the temperature data from the past 7 days. It is an end-to-end machine learning project that showcases three major steps: data processing, model training, and inference. The project also includes a user-friendly dashboard built with Streamlit for easy interaction and temperature prediction.
 
