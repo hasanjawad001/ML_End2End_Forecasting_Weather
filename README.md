@@ -8,9 +8,9 @@ The goal of this project is to use historical temperature data to predict the te
 
 ### Key Features
 - **Data Processing**: The project handles the preprocessing of temperature data to prepare it for model training.
-- **Model Training**: A machine learning model is trained on the historical temperature records from the past 7 days.
+- **Model Training**: A machine learning model is trained on the historical temperature records.
 - **Inference & Prediction**: The trained model is used to predict today’s temperature based on the input data.
-- **User Dashboard**: The Streamlit-based dashboard allows users to input temperature values from the last 7 days and get real-time predictions.
+- **User Dashboard**: The Streamlit-based dashboard allows users to input temperature values from the last 7 days and get predictions.
 
 ## Visualizations
 
@@ -18,4 +18,4 @@ The goal of this project is to use historical temperature data to predict the te
    ![Line Chart](plots/plot_line.png)
 
 2. **Scatter Plot**: Shows the relationship between the true temperatures and the predicted temperatures.
-   ![Scatter Plot](plots/scatter.png)
+   ![Scatter Plot](plots/plot_scatter.png)
